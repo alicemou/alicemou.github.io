@@ -1,73 +1,32 @@
 body {
-    color: #fff;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #6a00ff 0%, #a4508b 100%);
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
+   width: 940px;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: "Helvetica", "Lucida Grande", sans-serif;
+   color: #3d3d3d;
 }
 
 h1 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    background: linear-gradient(90deg, #fff 0%, #6a00ff 100%);
-    -webkit-background-clip: text;
-    background-clip: text; 
-    -webkit-text-fill-color: transparent;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-align: center;
-    letter-spacing: 2px;
-    text-shadow: 0 4px 24px rgba(106,0,255,0.25);
-    
+   padding: 10px;
+   background-color: #E1EDF2;
 }
 
 h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    color: #fff;
-    border-left: 5px solid #fff;
-    padding-left: 15px;
-    margin-bottom: 15px;
-    text-shadow: 0 2px 12px rgba(106,0,255,0.18);
+   border-bottom: 2px solid black;
 }
 
-p {
-    font-size: 1.2rem;
-    line-height: 1.7;
-    margin: 0 0 20px 0;
-    text-align: center;
+figure {
+   margin: 30px;
+   padding: 15px;
+   text-align: center;
+   background-color: whitesmoke;
+   border: 1px solid lightgrey;
 }
 
-button, .btn {
-    background: #fff;
-    color: #6a00ff;
-    border: none;
-    border-radius: 25px;
-    padding: 12px 32px;
-    font-size: 1rem;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 2px 8px rgba(106,0,255,0.15);
-    transition: background 0.3s, color 0.3s, transform 0.2s;
-    margin-top: 20px;
+figcaption {
+   margin-top: 10px;
 }
 
-button:hover, .btn:hover {
-    background: #6a00ff;
-    color: #fff;
-    transform: scale(1.07);
-    box-shadow: 0 4px 16px rgba(106,0,255,0.25);
-}
-
-.container {
-    max-width: 700px;
-    margin: 60px auto;
-    background: rgba(255,255,255,0.08);
-    border-radius: 18px;
-    padding: 40px 30px;
-    box-shadow: 0 4px 24px rgba(106,0,255,0.12), 0 0 16px 2px #a4508b;
-    border: 2px solid #6a00ff;
-
+figure img {
+   width: 800px;
 }
